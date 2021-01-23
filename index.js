@@ -17,7 +17,7 @@ const draft = nylas.drafts.build({
 })
     
 draft.send().then(message => {
-    console.log(`${message.body} was sent`);
+    console.log(`${message.subject} was sent`);
 }); 
 
 // ///Attempt to upload as attachment for email///
